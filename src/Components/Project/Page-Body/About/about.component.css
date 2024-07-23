@@ -1,0 +1,274 @@
+ .about {
+
+    text-align: center;
+    font-size: 38px;
+ }
+
+ .about-small {
+    color: #6a7179;
+    text-align: center;
+    font-size: 23px;
+ }
+
+ .about-color {
+    background-color: #e8ebed57;
+    padding: 35px;
+    border-radius: 0%;
+    border: 1px solid #f8f9fa;
+
+ }
+
+ .about-text {
+    font-size: 36px;
+
+ }
+
+ .about-text-small {
+    font-size: 17px;
+    color: #89929b;
+
+ }
+
+ .about-content {
+    padding-right: 178px;
+ }
+
+ .about-text1 {
+    font-size: 38px;
+    padding-left: 40px;
+    padding-top: 0px;
+
+
+ }
+
+ .about-gap {
+    margin-bottom: 58px;
+ }
+
+
+ .freeshop {
+    color: rgb(2, 34, 23);
+    font-size: 15px;
+    padding: -4px;
+    margin: 3px;
+ }
+
+ .freeshope-text {
+    font-size: 11px;
+    color: #7c8085;
+
+
+ }
+
+ .leg {
+    margin: 20px;
+    margin-top: 17px;
+    height: 59px;
+    width: 79px;
+ }
+
+ .col-logs {
+
+    flex: 1 1;
+    padding: 6px;
+   
+ }
+
+ .box-card1 {
+    margin: 23px;
+    height: 350px;
+    width: 359px;
+    border-radius: 2px;
+    border: 0px solid #ccc;
+    box-shadow: 0 0 10px rgba(219, 198, 198, 0.5);
+
+ }
+
+ .head-box {
+
+    padding: 35px;
+ }
+
+ .foot-box {
+
+    text-align: center;
+    margin-top: 10px;
+
+ }
+
+ .foots-small-text {
+    margin-top: -18px;
+    font-style: italic;
+
+ }
+
+
+ .center-image {
+    position: relative;
+    z-index: 2;
+    margin-top: -25px;
+    /* Adjust this value to align the image with the center line */
+ }
+
+ .center-image img {
+    margin-left: 150px;
+    width: 76px;
+    border-radius: 50%;
+ }
+
+ @media only screen and (max-width: 768px) {
+
+    .about {
+
+       text-align: center;
+       font-size: 38px;
+    }
+
+    .about-small {
+       color: #6a7179;
+       text-align: center;
+       font-size: 23px;
+    }
+
+    .about-color {
+       background-color: #e8ebed57;
+       padding: 35px;
+       border-radius: 0%;
+       border: 1px solid #f8f9fa;
+
+    }
+
+    .about-text {
+       width: 292px;
+       font-size: 24px;
+
+    }
+
+    .about-text-small {
+       width: 286px;
+       font-size: 15px;
+       color: #89929b;
+
+    }
+
+    .about-text-small2 {
+       width: 286px;
+       font-size: 15px;
+       color: #89929b;
+    }
+
+    .about-content {
+       padding-right: 178px;
+    }
+
+    .about-text1 {
+       font-size: 38px;
+
+    }
+
+    .about-gap {
+       margin-bottom: -63px;
+    }
+
+    .about-pic-one {
+       margin-left: -30px;
+       width: 339px;
+       height: 331px;
+    }
+
+    .about-pic-second {
+       margin-left: -30px;
+       width: 339px;
+       height: 331px;
+
+    }
+
+    .about-pic-three {
+      width: 345px;
+      height: 331px;
+      margin-left: -9px;
+    }
+
+    .cont-res-body {
+
+       margin: -14px;
+       width: 400px;
+       padding: 0px;
+    }
+
+    .res-box {
+       width: 200px;
+       margin-left: 80px;
+    }
+
+    .freeshop {
+       color: rgb(2, 34, 23);
+       font-size: 19px;
+       padding: -4px;
+       margin: 3px;
+    }
+
+    .freeshope-text {
+       font-size: 11px;
+       color: #7c8085;
+
+
+    }
+
+    .leg {
+       margin: 20px;
+       margin-top: 17px;
+       height: 59px;
+       width: 79px;
+    }
+
+    .col-logs {
+
+       flex: 1 1;
+       padding: 6px;
+    }
+
+    .box-card1 {
+      margin: -2px;
+    height: 491px;
+    padding: 0px;
+    width: 228px;
+    border-radius: 2px;
+    border: 0px solid #ccc;
+    box-shadow: 0 0 50px rgba(114, 113, 113, 0.5);
+
+    }
+
+    .head-box {
+      border-color: #f0efef;
+       padding: 35px;
+    }
+
+    .foot-box {
+
+       text-align: center;
+       margin-top: 10px;
+
+    }
+
+    .foots-small-text {
+       margin-top: -18px;
+       font-style: italic;
+
+    }
+
+
+    .center-image {
+       position: relative;
+       z-index: 2;
+       margin-top: -25px;
+       /* Adjust this value to align the image with the center line */
+    }
+
+    .center-image img {
+       margin-left: 150px;
+       width: 76px;
+       border-radius: 50%;
+    }
+
+ }

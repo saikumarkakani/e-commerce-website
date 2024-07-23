@@ -1,0 +1,130 @@
+.navebar {
+  background-color: black;
+  padding: 0%;
+  margin: 1px;
+  position: relative;
+  display: inline-block;
+
+}
+
+.image-style {
+  height: 10%;
+  width: 15%;
+  margin-left: 0%;
+
+}
+
+.search {
+  margin-left: 20%;
+
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  font-size: 12px;
+  width: 300px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.button {
+  margin-left: 20%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.button1 {
+  margin-left: 1%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.search-button {
+
+  background-color: rgb(233, 185, 53);
+  border-radius: 30px;
+  cursor: pointer;
+
+}
+
+.menu {
+  color: aliceblue;
+  margin-left: 30px;
+}
+
+.menu-items {
+  display: inline-block;
+  margin: 0 20px;
+  color: white;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu-items:hover {
+  background-color: rgb(63, 62, 62);
+  color: rgb(243, 236, 236);
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.sub-menu {
+  position: absolute;
+  list-style-type: none;
+  padding: 8px;
+  left: -40px;
+  top: 100%;
+  line-height: 30px;
+  background-color: rgba(14, 13, 13, 0.9);
+  color: aliceblue;
+  border: 1px solid #dbcccc;
+  display: none;
+}
+
+.menu-items:hover .sub-menu {
+  display: block;
+
+}
+
+.sub-menu li {
+  padding: 15px;
+  cursor: pointer;
+
+}
+
+.sub-menu li:hover {
+  background-color: #ffffff;
+  color: black;
+  border-radius: 20px;
+  padding: 2px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .navebar {
+    padding: 23px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .search {
+    margin-left: 35px;
+    width: 54%;
+  }
+
+
+  .button,
+  .button1 {
+    margin: 16px;
+    margin-right: -181px;
+    margin-left: 191px;
+  }
+  .menu{
+    margin-left: -18px;
+  }
+  .menu-items{
+    margin: 9px;
+    padding: 10px;
+  }
+}

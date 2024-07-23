@@ -1,0 +1,263 @@
+.trending{
+    margin-left: 120px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container,
+.container label {
+    margin: 0;
+}
+
+
+
+.disply-flex1 {
+    
+    margin-top: -23px;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 90px;
+    background-color: #fff;
+
+}
+
+
+
+.box-trending {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    flex: 1 0 auto;
+    border: 0px solid #f7f2f2;
+    margin: 0 auto;
+    position: relative; 
+}
+
+.header-image1 {
+    
+    margin-bottom: 20px;
+}
+
+.header-image1 img {
+    width: 300px; /* Adjust image width as needed */
+    height: 200px; /* Adjust image height as needed */
+    
+}
+
+.content-trending {
+    text-align: justify;
+    margin-left:30px;
+}
+h3 {
+    text-align: center;
+}
+.price1{
+    color: rgb(66, 130, 250);
+    font-size: 19px;
+}
+.cart-button1{
+    margin-left: -10px;
+    color: rgb(14, 46, 14);
+    width: 122px;
+    border-radius: 21px;
+    background-color: #f7f2f2;
+    border: 1px solid #103822;
+}
+.cart-button1:hover{
+    background-color: #103822;
+    color: rgba(255, 255, 255, 0.993);
+}
+.cart-logs1 svg {
+    height: 33px;
+    width: 45px;
+    margin: 1px;
+    padding: 4px;
+    margin-left: 1px;
+    border-radius: 50%;
+    border: 1px solid rgb(13, 56, 31);
+}
+
+.heart-icon1 svg {
+    height: 32px;
+    width: 45px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid rgb(15, 41, 22);
+}
+.cart-logs1 svg:hover{
+    background-color: #103822;
+    color: rgba(255, 255, 255, 0.993);
+
+}
+.heart-icon1 svg:hover{
+    background-color: #103822;
+    color: rgba(255, 255, 255, 0.993);
+
+}
+
+.second-row1{
+    margin-top: -109px;
+
+}
+.offer-strip2{
+    background-color: rgb(69, 137, 238);
+    color: rgb(255, 255, 255);
+    width: 60px;
+    font-size: 12px;
+    padding-left: 5px;
+    position: absolute;
+    left: 255px;
+    margin-top: -213px;
+    
+    
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .head-style1 {
+      
+        margin-left: 20px;
+    }
+    
+    .container1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .container h2,
+    .container label {
+        margin: 0;
+    }
+    
+    
+    
+    .disply-flex1 {
+      
+        display: flex;
+        flex-wrap: wrap;
+        gap: 270px;
+        padding: 3px;
+        margin: 3px;
+        width: 376px;
+    
+    }
+    .card-body1 {
+        border-radius: 16px;
+        padding: -2px;
+        margin: 12px;
+        background-color: #ffffff;
+        width: 80%;
+        margin-left: 38px;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.993);
+        color: var(--bs-card-color);
+    }
+    
+    .product-box1 {
+        width: 80%;
+        flex: 1;
+        border: 0px solid #f7f2f2;
+        padding: 20px;
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+    }
+    
+    .product-image1 {
+        width: 102%;
+        height: 221px;
+        margin-left: -1%;
+        cursor: pointer;
+    
+    }
+    h3 {
+        text-align: center;
+    }
+    .price1{
+        color: rgb(66, 130, 250);
+        font-size: 19px;
+    }
+    .cart-button1{
+        margin-left: -10px;
+        color: rgb(14, 46, 14);
+        width: 122px;
+        border-radius: 21px;
+        background-color: #f7f2f2;
+        border: 1px solid #103822;
+    }
+    .cart-button1:hover{
+        background-color: #103822;
+        color: rgba(255, 255, 255, 0.993);
+    }
+    .cart-logs1 svg {
+        height: 33px;
+        width: 45px;
+        margin: 1px;
+        padding: 4px;
+        margin-left: 1px;
+        border-radius: 50%;
+        border: 1px solid rgb(13, 56, 31);
+    }
+    
+    .heart-icon1 svg {
+        height: 32px;
+        width: 45px;
+        padding: 5px;
+        border-radius: 50%;
+        border: 1px solid rgb(15, 41, 22);
+    }
+    .cart-logs1 svg:hover{
+        background-color: #103822;
+        color: rgba(255, 255, 255, 0.993);
+    
+    }
+    .heart-icon1 svg:hover{
+        background-color: #103822;
+        color: rgba(255, 255, 255, 0.993);
+    
+    }
+    
+    .second-row1{
+        margin-top: -109px;
+    
+    }
+
+    .boxs-gap{
+        top: -269px;
+    }
+    .boxs-gap1{
+        top: -511px;
+    }
+    .boxs-gap2{
+        top: -749px;
+    }
+    .boxs-gap3{
+        top: -598px;
+
+    }
+    .boxs-gap4{
+        top: -855px;
+    }
+    .boxs-gap5{
+        top: -1096px;
+
+    }
+    .boxs-gap6{
+        top: -1346px;
+    }
+
+    
+    
+   
+
+}

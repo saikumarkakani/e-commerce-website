@@ -1,0 +1,246 @@
+
+.ggap{
+
+    margin-top: 100px;
+    
+}
+.product-style{
+    margin-left: 71px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+hr {
+    width: 1130px; /* Adjust the width as needed */
+    border-color: black; /* Optional: Set the color of the line */
+    padding: 10px;
+    margin-left: 80px;
+}
+
+
+
+.disply-flex {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 64px;
+    background-color: #fff;
+
+}
+
+
+
+.box-product {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    flex: 1 0 auto;
+    border: 0px solid #f7f2f2;
+    margin: 0 auto;
+    position: relative; 
+}
+
+.header-image {
+    
+    margin-bottom: 20px;
+}
+
+.header-image img {
+    width: 300px; /* Adjust image width as needed */
+    height: 200px; /* Adjust image height as needed */
+    
+}
+
+.content-product {
+    margin-left:30px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.price {
+    color: rgb(66, 130, 250);
+    font-size: 19px;
+}
+
+.cart-button {
+    margin-left: -5px;
+    color: rgb(14, 46, 14);
+    width: 122px;
+    border-radius: 21px;
+    background-color: #f7f2f2;
+    border: 1px solid #103822;
+}
+
+.cart-button:hover {
+    background-color: #103822;
+    color: rgba(255, 255, 255, 0.993);
+}
+
+.cart-logs{
+    height: 33px;
+    width: 45px;
+    margin: 0px;
+    padding: 2px;
+    margin-left: 1px;
+    border-radius: 50%;
+    border: 1px solid rgb(13, 56, 31);
+}
+
+.heart-icon {
+    height: 32px;
+    width: 45px;
+    padding: 1px;
+    border-radius: 50%;
+    border: 1px solid rgb(15, 41, 22);
+}
+
+.cart-logs:hover {
+    background-color: #103822;
+    color: rgba(255, 255, 255, 0.993);
+
+}
+
+.heart-icon:hover {
+    background-color: #103822;
+    color: rgba(255, 255, 255, 0.993);
+
+}
+
+.second-row {
+    margin-top: -109px;
+
+}
+.offer-strip{
+    background-color: rgb(69, 137, 238);
+    color: rgb(255, 255, 255);
+    width: 60px;
+    font-size: 12px;
+    padding-left: 5px;
+    position: absolute;
+    left: 255px;
+    margin-top: -213px;
+    
+
+}
+
+.wishlist-popup{
+    color: rgb(255, 255, 255);
+    background-color: rgb(245, 126, 58);
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 40px;
+    width: 221px;
+    display: flex;
+    align-items: center;
+    padding-left: 4px;
+    position: fixed;
+    top:250px;
+    left:1050px;
+    z-index: 1000;
+
+}
+.accept-img{
+    width: 45px;
+    height: 48px;
+    margin-right: 10px; /* Add spacing between the image and text */
+}
+
+@media only screen and (max-width: 768px) {
+    .disply-flex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 270px;
+        padding: 3px;
+        margin: 3px;
+        width: 376px;
+
+    }
+
+    .card {
+        border-radius: 16px;
+        padding: -2px;
+        margin: 12px;
+        background-color: #ffffff;
+        width: 80%;
+        margin-left: 38px;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.993);
+    }
+
+    .card-body {
+        flex: 1 1 auto;
+        padding: 0px;
+        color: var(--bs-card-color);
+        margin-left: 38px;
+
+    }
+    
+
+    .product-box {
+        width: 80%;
+        flex: 1;
+        border: 0px solid #f7f2f2;
+        padding: 20px;
+        box-sizing: border-box;
+        border-radius: 10px;
+
+    }
+
+    .img-product {
+        width: 110%;
+        height: auto;
+        margin-left: -14%;
+        cursor: pointer;
+    }
+
+    .product-image {
+        flex: 1 1;
+        border: 2px solid #c2bebe;
+        padding: 44px;
+        box-sizing: border-box;
+        background-color: rgb(255, 255, 255);
+
+    }
+    .box-gap{
+        top: -269px;
+    }
+    .box-gap1{
+        top: -511px;
+    }
+    .box-gap2{
+        top: -749px;
+    }
+    .box-gap3{
+        top: -749px;
+    }
+    .box-gap4{
+        top: -982px;
+    }
+    .box-gap5{
+        top: -1222px;
+    }
+    .box-gap6{
+        top: -1452px;
+    }
+    .box-gap7{
+        top: -1394px;
+    }
+    .box-gap8{
+        top: -1648px;
+    }
+
+    .box-gap9{
+        top: -1882px;
+    }
+    .box-gap10{
+        top: -2104px;
+    }
+
+
+
+
+}

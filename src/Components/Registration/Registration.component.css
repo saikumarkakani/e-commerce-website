@@ -1,0 +1,29 @@
+.body {
+    background-image: url("D:\react-project\my-react-app\src\Laptop-Wallpapers-Black-HD-Download.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    padding: 2%;
+    margin: 2%;
+   
+}
+.text-color{
+    color: white;
+}
+.button-color{
+    color: black;
+    background-color: antiquewhite;
+}
+
+
+
+
+

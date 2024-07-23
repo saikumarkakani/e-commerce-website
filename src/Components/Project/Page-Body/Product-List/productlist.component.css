@@ -1,0 +1,427 @@
+.about {
+
+    text-align: center;
+    font-size: 38px;
+}
+
+.about-small {
+    color: #6a7179;
+    text-align: center;
+    font-size: 18px;
+}
+
+.about-color {
+    background-color: #e8ebed57;
+    padding: 35px;
+    border-radius: 0%;
+    border: 1px solid #f8f9fa;
+
+}
+
+
+
+.container22 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container h2,
+.container label {
+    margin: 0;
+}
+
+.pro-gap {
+    padding-left: 200px;
+    font-size: 18px;
+}
+
+.dropdown-border {
+    padding: 6px;
+    height: 43px;
+    width: 134px;
+    border-radius: 7px;
+    border: 1px solid #000;
+}
+
+
+.disply-flex22 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 38px;
+    padding: 0px;
+    background-color: #fff;
+}
+
+.product-box22 {
+    position: relative;
+    overflow: hidden;
+    flex-basis: calc(25% - 4px); /* Adjusted width for four items per row with spacing */
+    box-sizing: border-box;
+    border-radius: 0px;
+    border: 0 solid #f7f2f2;
+    margin-bottom: 20px; /* Added margin for spacing between rows */
+}
+
+
+ .product-image22 {
+    width: 100%;  
+    height: 221px;
+    cursor: pointer;
+    height: auto;
+    transition: transform 0.3s ease;
+} 
+.productlist-strip{
+    background-color: rgb(69, 137, 238);
+    color: rgb(255, 255, 255);
+    width: 60px;
+    font-size: 12px;
+    padding-left: 5px;
+    position: absolute;
+    left: 120px;
+     top: 10px;
+    
+
+}
+.wishlist-sub-menu {
+    width: 450px;
+    padding: 2px;
+    top: 62px;
+    position: absolute;
+    left: 0;
+    list-style: none;
+    display: none;/* Initially hide the submenu */
+   
+}
+
+.wishlist-li{
+    margin-left: 10px;
+    padding: 8px;
+    border: 0px solid;
+    background-color: white;
+    color: black;
+
+
+}
+
+.wishlist-li:hover {
+    background: #046e4e;
+    color: #e4dfdf;
+  }
+  .product-box22:hover .wishlist-sub-menu {
+    display: block;
+  }
+  .product-box22:hover .product-image22 {
+    transform: scale(1.1); /* Increase size on hover */
+  }
+  
+  .card-header {
+    position: relative;
+  }
+
+h3 {
+    text-align: center;
+}
+
+.price22 {
+    color: rgb(66, 130, 250);
+    font-size: 19px;
+}
+
+.second-row22 {
+    margin-top: 10px;
+
+}
+
+.stock {
+    color: rgb(91, 173, 147);
+    font-size: 20px;
+
+}
+
+
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown button */
+.dropdown-btn {
+    min-width: 360px;
+    background-color: #ffffff;
+    color: rgb(14, 13, 13);
+    padding: 20px;
+    font-size: 19px;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #e4dfdf;
+}
+
+/* Dropdown content */
+.dropdown-content {
+    margin-top: 4px;
+    display: none;
+    position: relative;
+    background-color: #ffffff;
+    min-width: 360px;
+    box-shadow: 0px 2px 2px 0px rgba(2, 2, 2, 0.2);
+    z-index: 1;
+    list-style-type: none;
+    padding: 2px;
+}
+
+
+/* Dropdown content items */
+.dropdown-content li {
+
+    margin-left: 17px;
+    padding: 13px;
+}
+
+/* Show the dropdown content when the checkbox is checked */
+.dropdown-toggle:checked+.dropdown-btn+.dropdown-content {
+    display: block;
+}
+
+.atag-style {
+    color: #5a6061;
+    text-decoration: none !important;
+}
+
+.dropdown-content li:hover {
+    background-color: #f4f4f7;
+
+} 
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.color-box {
+    margin-left: 10px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 25px;
+    border: 1px solid #ccc;
+}
+.size{
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    color: #5a6061;
+}
+
+.apply{
+    padding: 4px;
+    left: 40px;
+    width: 70px;
+    height: 35px;
+    margin: 0px;
+    border: 1px solid #252525;
+}
+.apply-box{
+    padding: 9px;
+    padding-left: 18px;
+}
+
+.star-rating {
+    font-size: 24px;
+    padding-left: 40px;
+  }
+  
+  .star {
+    color: gold; /* Change the color of the stars */
+  }
+
+  .star.half {
+    display: inline-block;
+    position: relative;
+    color: #ccc; /* Change the color of the half star */
+  }
+  
+  .star.half:before {
+    content: '\2605';
+    position: absolute;
+    left: 0;
+    top: 0; /* Ensure the half star aligns properly */
+    width: 50%;
+    overflow: hidden;
+    color: gold; /* Change the color of the half star */
+  }
+  .star.empty {
+    color: #ccc; /* Change the color of the empty stars */
+  }
+
+
+
+
+.pro-icon-box {
+    padding: 6px;
+    height: 43px;
+    width: 51px;
+    border-radius: 0px;
+    border: 1px solid #046e4e;
+}
+
+
+.pro-icon-box1 {
+    padding: 6px;
+    height: 43px;
+    width: 51px;
+    border-radius: 0px;
+    border: 1px solid #046e4e;
+}
+
+.pro-icon-box:hover {
+    background-color: #066649;
+}
+
+.pro-icon-box1:hover {
+    background-color: #066649;
+}
+
+.numbers-gap{
+    margin-left: 130px;
+}
+
+.page-numbers {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  .page-numbers li {
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 0px;
+    border: 1px solid #e2e0e0;
+  }
+  .page-numbers li:hover {
+    color: #ffffff;
+    background-color: #0b3828;
+  }
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .head-style1 {
+
+        margin-left: 20px;
+    }
+
+    .container1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container h2,
+    .container label {
+        margin: 0;
+    }
+
+
+
+    .disply-flex22 {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 270px;
+        padding: 3px;
+        margin: 3px;
+        width: 376px;
+
+    }
+
+    .card-body22 {
+        border-radius: 16px;
+        padding: -2px;
+        margin: 12px;
+        background-color: #ffffff;
+        width: 80%;
+        margin-left: 38px;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.993);
+        color: var(--bs-card-color);
+    }
+
+    .product-box22 {
+        width: 80%;
+        flex: 1;
+        border: 0px solid #f7f2f2;
+        padding: 20px;
+        box-sizing: border-box;
+        border-radius: 10px;
+
+    }
+
+    .product-image22 {
+        width: 102%;
+        height: 221px;
+        margin-left: -1%;
+        cursor: pointer;
+
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .price22 {
+        color: rgb(66, 130, 250);
+        font-size: 19px;
+    }
+
+    .second-row22 {
+        margin-top: -109px;
+
+    }
+
+    .boxs-gap {
+        top: -269px;
+    }
+
+    .boxs-gap1 {
+        top: -511px;
+    }
+
+    .boxs-gap2 {
+        top: -749px;
+    }
+
+    .boxs-gap3 {
+        top: -598px;
+
+    }
+
+    .boxs-gap4 {
+        top: -855px;
+    }
+
+    .boxs-gap5 {
+        top: -1096px;
+
+    }
+
+    .boxs-gap6 {
+        top: -1346px;
+    }
+
+
+}

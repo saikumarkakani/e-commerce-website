@@ -1,0 +1,135 @@
+.image {
+
+    width: 350px;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    margin-left: -46%;
+    cursor: pointer;
+
+}
+.logs-box{
+    background-color: #dfc847;
+    border: 1px solid #255e46;
+    color: rgb(2, 2, 2);
+    border-radius: 4px;
+    padding: 5px;
+
+}
+
+footer {
+    background-color: rgb(16 77 58);
+    color: #fff;
+    padding: 50px;
+    padding-top: 50px;
+    margin-top: 47px;
+    
+
+}
+
+.footer-list {
+    list-style-type: none;
+    margin: 2px;
+    margin-left: -83px;
+}
+
+.Search-style {
+
+    padding: 7px;
+    color: rgb(8, 8, 8);
+    border-radius: 0px;
+    background-color: #ffffff;
+    text-shadow: #ffffff;
+    flex: 1;
+    padding: 10px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+.send-button {
+    background-color: #216834;
+    border: 1px solid #255e46;
+    color: rgb(243, 243, 243);
+    border-radius: 4px;
+    margin-left: -55px;
+    padding: 5px;
+}
+.last-style{
+    margin-left: 400px;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .heading-style{
+        padding-left: 63px;
+        font-size: 23px;
+    }
+
+    .heading-small-style{
+        padding-left: 10px;
+        font-size: 18px;
+    }
+    footer {
+        padding: 2px;
+        text-align: center;
+    }
+
+    .footer-list {
+        margin: 0; 
+        padding: 0; 
+    }
+
+    .send-button {
+        margin: 10px auto; 
+    }
+
+    .last-style {
+        margin-left: 0; 
+    }
+
+    .image {
+        width: 100%; 
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+
+    .logs-box {
+        margin: 10px auto; 
+    }
+    .Search-style {
+
+        padding: 7px;
+        color: rgb(8, 8, 8);
+        border-radius: 0px;
+        background-color: #ffffff;
+        text-shadow: #ffffff;
+        flex: 1;
+        padding: 10px;
+    }
+    
+    .search-container {
+        display: flex;
+        align-items: center;
+    }
+    .send-button {
+        background-color: #216834;
+        border: 1px solid #255e46;
+        color: rgb(243, 243, 243);
+        border-radius: 4px;
+        margin-left: -55px;
+        padding: 5px;
+    }
+
+      .footer-get{
+        font-size: 30px;
+
+      }
+      .heading-small-styles{
+        padding-left: 10px;
+        font-size: 17px;
+    }
+
+
+}

@@ -1,0 +1,91 @@
+.ggap {
+
+    margin-top: 100px;
+}
+
+.head-style {
+    margin-left: 20px;
+}
+
+.whishlist-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+}
+
+#table-container {
+    height: 343px;
+    width: 800px;
+    background-color: #fff;
+    padding: 0px;
+    border-radius: 3px;
+  
+}
+
+table {
+    width: 900px;
+}
+.data-text{
+    padding-top: 60px;
+}
+.data-text1{
+    padding-top: 20px;
+
+}
+table tr {
+    border-bottom: 1px solid #ddd;
+   
+}
+
+
+table td {
+    padding: 10px;
+    text-align: center;
+}
+.td-style{
+    padding: 20px;
+}
+
+th {
+    background-color: #f2f2f2;
+    padding: 20px;
+    color: #888686;
+}
+
+.wishlist-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.wishlist-text {
+    margin-left: 18px;
+}
+.whishlist-button{
+    margin-left: 10px;
+    padding: 6px;
+    height: 38px;
+    width: 60px;
+    border-radius: 8px;
+    background-color: #eb5439;
+    border: 1px solid #f08976;
+    box-shadow: 0 2px 4px rgba(226, 27, 27, 0.1);
+}
+.whishlist-button1{
+    margin-left: 10px;
+    padding: 6px;
+    height: 38px;
+    width: 60px;
+    border-radius: 8px;
+    background-color: #3980eb;
+    border: 1px solid #7ba8eb;
+    box-shadow: 0 2px 4px rgba(123, 187, 247, 0.1);
+}
+.whilist-foot{
+    margin-bottom: 500px;
+}

@@ -1,0 +1,249 @@
+.width {
+    padding: 3px;
+    margin: 3px;
+    margin-left: 90px;
+}
+
+.box-image {
+
+    width: 253px;
+    margin-top: -192px;
+    height: 229px;
+    margin-left: 197px;
+    margin-bottom: 183px;
+}
+
+.box-image2 {
+    height: 225px;
+    width: 466px;
+    margin-left: 36px;
+}
+
+.card-color {
+    background-color: rgb(77, 218, 211);
+
+}
+
+.card-color2 {
+    background-color: rgb(251, 255, 36);
+
+}
+
+.card14 {
+
+    margin: 76px;
+    height: 367px;
+    width: 524px;
+    margin: 12px;
+}
+
+.card15 {
+
+    margin: 76px;
+    height: 367px;
+    width: 98%;
+    margin: 12px;
+   
+    
+}
+
+
+
+.text-content {
+
+    padding: 53px;
+}
+
+.text-content1 {
+    text-align: center;
+    padding: 20px;
+    width: 543px;
+}
+
+
+.button1 {
+    background-color: rgb(251, 255, 36);
+    border-color: rgb(251, 255, 36);
+    margin-left: -2px;
+    border-radius: 0px;
+    padding: 6px;
+    width: 124px;
+    margin-top: 31px;
+}
+
+.button2 {
+    background-color: #343a40;
+    border-color: #343a40;
+    margin-left: 142px;
+    border-radius: 0px;
+    padding: 6px;
+    width: 124px;
+    margin-top: 31px;
+    color: white;
+}
+
+.carouselBox {
+
+    width: 84%;
+    height: 660px;
+    margin: 29px;
+    background-color: rgb(60, 214, 206);
+    margin-left: 119px;
+}
+
+.CarouselImage {
+    margin-left: 647px;
+    height: 734px;
+    width: 948px;
+    top: -398px;
+}
+
+
+.Carousel-text {
+    margin-top: 92px;
+    margin-left: 123px;
+}
+
+.Carousel-text1 {
+
+    margin-left: 80px;
+
+    margin-bottom: 10px;
+    font-size: 45px;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .width {
+        padding: 3px;
+        margin: 3px;
+        margin-left: 90px;
+    }
+    
+    
+
+    .element.style {
+        margin-top: 479px;
+        padding-top: 67px;
+        left: 0px;
+        padding-right: 119px;
+        padding-left: -32px;
+        width: 420px;
+        height: 634px;
+    }
+
+    .box-image {
+    
+        width: 253px;
+        margin-top: -192px;
+        height: 229px;
+        margin-left: 197px;
+        margin-bottom: 183px;
+    }
+    
+    .box-image2 {
+        height: 225px;
+        width: 466px;
+        margin-left: 36px;
+    }
+    
+    .card-color {
+        background-color: rgb(77, 218, 211);
+    
+    }
+    
+    .card-color2 {
+        background-color: rgb(251, 255, 36);
+    
+    }
+    
+    .card14 {
+    
+        margin: 76px;
+        height: 367px;
+        width: 524px;
+        margin: 12px;
+    }
+    
+    .card15 {
+    
+        margin: 76px;
+        height: 367px;
+        width: 98%;
+        margin: 12px;
+    }
+    
+    
+    
+    .text-content {
+    
+        padding: 53px;
+    }
+    
+    .text-content1 {
+        text-align: center;
+        padding: 20px;
+        width: 543px;
+    }
+    
+    
+    .button1 {
+        background-color: rgb(251, 255, 36);
+        border-color: rgb(251, 255, 36);
+        margin-left: -2px;
+        border-radius: 0px;
+        padding: 6px;
+        width: 124px;
+        margin-top: 31px;
+    }
+    
+    .button2 {
+        background-color: #343a40;
+        border-color: #343a40;
+        margin-left: 142px;
+        border-radius: 0px;
+        padding: 6px;
+        width: 124px;
+        margin-top: 31px;
+        color: white;
+    }
+    
+    .carouselBox {
+    
+        width: 93%;
+        height: 1106px;
+        margin: 27px;
+        background-color: rgb(60, 214, 206);
+        margin-left: 16px;
+    }
+    
+    .CarouselImage {
+        margin-left: 47px;
+        height: 60%;
+        width: 40%;
+        top: -398px;
+    }
+    
+    
+    .Carousel-text {
+        margin-top: 92px;
+        margin-left: 74px;;
+    }
+    
+    .Carousel-text1 {
+    
+        margin-left: 60px;
+        margin-bottom: 10px;
+        font-size: 38px;
+    }
+    
+    
+    
+
+
+
+}

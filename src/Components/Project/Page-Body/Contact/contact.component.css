@@ -1,0 +1,110 @@
+.about {
+
+    text-align: center;
+    font-size: 38px;
+}
+
+.about-small {
+    color: #6a7179;
+    text-align: center;
+    font-size: 18px;
+}
+
+.about-color {
+    background-color: #e8ebed57;
+    padding: 35px;
+    border-radius: 0%;
+    border: 1px solid #f8f9fa;
+    
+
+}
+.Contact-with-us{
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.Contact-col{
+    flex: 20 ;
+    padding: 30px;
+    background-color: #f8f8f8;
+    margin: 20px;
+    margin-left: 100px;
+}
+.Contact-col2{
+    flex: 10;
+    margin: 20px;
+}
+.Contact-icons{
+    background-color: #fff;
+    padding: 10px;
+    height: 46px;
+    width: 47px;
+    border: 1px solid #176b44fc;
+    border-radius: 33px;
+    color: #0a492cfa;
+}
+.Contact-icons1{
+    background-color: #fff;
+    padding: 11px;
+    height: 48px;
+    width: 47px;
+    border: 1px solid #176b44fc;
+    border-radius: 33px;
+    color: #0a492cfa;
+}
+.Contact-icons2{
+    background-color: #fff;
+    padding: 10px;
+    height: 47px;
+    width: 46px;
+    border: 1px solid #176b44fc;
+    border-radius: 33px;
+    color: #0a492cfa;
+}
+
+.Contact-icons:hover{
+    background-color:#176b44fc;;
+    color: #fcfcfc;
+}
+.Contact-icons1:hover{
+    background-color:#176b44fc;;
+    color: #fcfcfc;
+}
+.Contact-icons2:hover{
+    background-color:#176b44fc;;
+    color: #fcfcfc;
+}
+.Contact-with-us-text{
+    font-size: 23px;
+    font-weight: bolder;
+
+}
+.Contact-with-us-smalltext{
+    font-size: 16px;
+    margin-left: 50px;
+}
+/* col-2 style */
+
+.Get-in-Touch{
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.contact-form{
+    width: 600px;
+    height: 45px;
+}
+.contact-textarea{
+ height: 150px;
+}
+.contact-button{
+    background-color: rgb(9, 99, 64);
+    color: #fdfdfd;
+    padding: 10px;
+    width: 100px;
+ 
+}
+.contact-button:hover{
+    background-color: rgb(22, 190, 109);
+    color: #ffffff;
+}
